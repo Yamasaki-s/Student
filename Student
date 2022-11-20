@@ -1,0 +1,30 @@
+package 生徒成績管理プログラム;
+
+public class Student_02 {
+	String name;
+	int score;
+	
+	public String getName() {
+		return name;
+	}
+
+	public void setName(String name) {
+		this.name = name;
+	}
+
+	public int getScore() {
+		return score;
+	}
+
+	public void setScore(int score) {
+		this.score = score;
+	}
+
+	static final int MAX_SCORE = 100;
+	
+	void printScore() {
+		System.out.println(name + "さんは" + MAX_SCORE + "点満点中、" + score + "点です。");
+		
+	}
+
+}
