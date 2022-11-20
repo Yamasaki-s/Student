@@ -1,0 +1,19 @@
+package 生徒成績管理プログラム;
+
+public class StudentSample {
+
+	public static void main(String[] args) {
+		Student murata = new Student(); //murataインスタンスを作る
+		murata.name = "村田"; //名前を設定する
+		murata.score = 80; //点数を設定する
+		
+		murata.printScore();//インスタンスのprintScoreメソッドを呼ぶ
+		
+		Student okada = new Student(); //同様にokadaインスタンスを作る
+		okada.name = "岡田";
+		okada.score =90;
+		okada.printScore();
+
+	}
+
+}
